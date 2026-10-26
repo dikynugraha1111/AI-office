@@ -1,0 +1,19 @@
+{
+  "name": "agent-office",
+  "version": "0.1.0",
+  "description": "3D animated office that visualizes Claude Code agents and subagents live, driven by hooks",
+  "private": true,
+  "license": "MIT",
+  "bin": {
+    "agent-office": "server.js"
+  },
+  "scripts": {
+    "start": "node server.js --open",
+    "demo": "node server.js --demo --open",
+    "hooks:install": "node install.js",
+    "hooks:uninstall": "node install.js --uninstall"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
